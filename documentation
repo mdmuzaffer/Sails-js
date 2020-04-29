@@ -24,3 +24,18 @@ info: Created a new Sails app `test-project`!
 7. cd test-project
 command - sails lift
 When run the command it display the sails intherminal see screenshot - https://prnt.sc/s7xij8
+
+8. Also install the nodemon package for auto load or refresh the project
+command - npm install nodemon -g
+
+9. create controller it is dynamically also model creating
+command -  sails generate api articles
+
+10. Also need the uncomment of "  migrate: 'alter'," in the folder /config/models.js
+
+11. Add the temparary data by url it is storing in the .tem/ localDiskDb folder with the article name
+Here is the screenshot - https://prnt.sc/s7zhkn
+
+12. add localDiskDb data like - Create?title=My second title&body=This is second body content
+url- http://localhost:1337/articles/Create?title=My second title&body=This is second body content
+
