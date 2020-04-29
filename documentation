@@ -39,3 +39,11 @@ Here is the screenshot - https://prnt.sc/s7zhkn
 12. add localDiskDb data like - Create?title=My second title&body=This is second body content
 url- http://localhost:1337/articles/Create?title=My second title&body=This is second body content
 
+13. In controller define view amd make the route in config/route
+In controller:-
+ list: (req,res) =>{
+	  res.view('article/articles');
+  }
+
+In route:-
+'/articles/list':'articles/list',
