@@ -47,3 +47,21 @@ In controller:-
 
 In route:-
 '/articles/list':'articles/list',
+
+=============================================================================================================
+npm install -g sails@^1.0.0
+
+1. I have again install the old version sails js version 0.12.0
+command - npm install -g sails@~0.12.0 --force --save
+
+2. Then I have create new project 
+command -sails new test-sails
+
+3. I have also installed the sails-mysql
+command -  npm install sails-mysql
+
+4. I have also installed the nodemon to auto refresh the page 
+command - npm install nodemon -g
+
+5. I have also created the controller and model
+command -sails create api users
